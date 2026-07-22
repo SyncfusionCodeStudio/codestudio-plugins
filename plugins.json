@@ -1,8 +1,50 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-12T00:00:00Z",
+  "lastUpdated": "2026-07-22T00:00:00Z",
   "registryUrl": "https://raw.githubusercontent.com/praveen-hari/agent-plugin-marketplace/main/plugins.json",
   "plugins": [
+    {
+      "id": "demo-mcp-bundle",
+      "name": "Demo MCP Bundle",
+      "description": "Dummy plugin that ships two sample MCP servers (stdio + http) — used to preview the MCP servers section in the plugin detail view",
+      "author": "Code Studio",
+      "version": "0.1.0",
+      "icon": "mcp-demo.svg",
+      "repository": "https://github.com/example/demo-mcp-bundle",
+      "keywords": ["mcp", "demo", "model-context-protocol", "servers"],
+      "category": "community",
+      "featured": false,
+      "skillCount": 4,
+      "installSource": {
+        "type": "git",
+        "repo": "example/demo-mcp-bundle"
+      },
+      "mcpServers": [
+        {
+          "id": "filesystem-tools",
+          "name": "Filesystem Tools",
+          "description": "Sandboxed read/write access to a project-relative directory. Wraps the official filesystem MCP server.",
+          "transport": "stdio",
+          "command": "npx",
+          "args": ["-y", "@modelcontextprotocol/server-filesystem", "./workspace"],
+          "env": {
+            "LOG_LEVEL": "info",
+            "MAX_FILE_SIZE_MB": "25"
+          },
+          "tools": ["read_file", "write_file", "list_directory", "search_files"],
+          "required": true
+        },
+        {
+          "id": "github-remote",
+          "name": "GitHub Remote",
+          "description": "HTTP-transport MCP server for browsing issues, PRs, and repo metadata without auth.",
+          "transport": "http",
+          "url": "https://mcp.example.com/github",
+          "tools": ["search_repos", "list_issues", "get_pr"],
+          "required": false
+        }
+      ]
+    },
     {
       "id": "syncfusion-react",
       "name": "Syncfusion React",
