@@ -179,7 +179,7 @@
       "description": "DOCX Editor SDK Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
       "author": "Syncfusion",
       "version": "1.0.0",
-      "icon": "syncfusion.svg",
+      "icon": "docx.svg",
       "repository": "https://github.com/syncfusion/docx-editor-sdk-skills",
       "keywords":[
         "document","syncfusion","word","pdf","excel"
@@ -198,7 +198,7 @@
       "description": "Document SDK Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
       "author":"Syncfusion",
       "version":"1.0.0",
-      "icon":"syncfusion.svg",
+      "icon":"sdk.svg",
       "repository":"https://github.com/syncfusion/document-sdk-skills",
       "keywords":[
         "document","syncfusion","word","pdf","excel"
@@ -216,7 +216,7 @@
       "description": "PDF Viwer SDK Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
       "author":"Syncfusion",
       "version":"1.0.0",
-      "icon":"syncfusion.svg",
+      "icon":"pdf.svg",
       "repository":"https://github.com/syncfusion/pdf-viewer-sdk-skills",
       "keywords":[
         "document","syncfusion","word","pdf","excel"
@@ -234,7 +234,7 @@
       "description": "SpreadSheet Editor Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
       "author":"Syncfusion",
       "version":"1.0.0",
-      "icon":"syncfusion.svg",
+      "icon":"xlsx.svg",
       "repository":"https://github.com/syncfusion/spreadsheet-editor-sdk-skills",
       "keywords":[
         "document","syncfusion","word","pdf","excel"
