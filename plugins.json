@@ -6,15 +6,15 @@
     {
       "id": "demo-mcp-bundle",
       "name": "Demo MCP Bundle",
-      "description": "Dummy plugin that ships two sample MCP servers (stdio + http) — used to preview the MCP servers section in the plugin detail view",
+      "description": "Dummy plugin that ships two sample MCP servers (stdio + http) and a real safety-review skill — used to preview the MCP servers + skills browser in the plugin detail view",
       "author": "Code Studio",
       "version": "0.1.0",
       "icon": "mcp-demo.svg",
       "repository": "https://github.com/example/demo-mcp-bundle",
-      "keywords": ["mcp", "demo", "model-context-protocol", "servers"],
+      "keywords": ["mcp", "demo", "model-context-protocol", "servers", "safety"],
       "category": "community",
       "featured": false,
-      "skillCount": 4,
+      "skillCount": 1,
       "installSource": {
         "type": "git",
         "repo": "example/demo-mcp-bundle"
@@ -42,6 +42,16 @@
           "url": "https://mcp.example.com/github",
           "tools": ["search_repos", "list_issues", "get_pr"],
           "required": false
+        }
+      ],
+      "skills": [
+        {
+          "id": "ai-prompt-engineering-safety-review",
+          "name": "AI Prompt Engineering Safety Review",
+          "description": "A focused review of prompts to identify and mitigate common risks before shipping them to a model — mirrored from github/awesome-copilot for demo purposes.",
+          "path": "skills/ai-prompt-engineering-safety-review/SKILL.md",
+          "category": "safety",
+          "repo": "github/awesome-copilot"
         }
       ]
     },
@@ -327,7 +337,30 @@
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot"
-      }
+      },
+      "skills": [
+        {
+          "id": "ai-prompt-engineering-safety-review",
+          "name": "AI Prompt Engineering Safety Review",
+          "description": "A focused review of prompts to identify and mitigate common risks before shipping them to a model.",
+          "path": "skills/ai-prompt-engineering-safety-review/SKILL.md",
+          "category": "safety"
+        },
+        {
+          "id": "context-fundamentals",
+          "name": "Context Fundamentals",
+          "description": "Core principles for assembling effective AI context — what to include, what to leave out, and how to budget tokens.",
+          "path": "skills/context-fundamentals/SKILL.md",
+          "category": "fundamentals"
+        },
+        {
+          "id": "context-decomposition",
+          "name": "Context Decomposition",
+          "description": "Break large monorepo contexts into focused, retrievable chunks for long-running agent sessions.",
+          "path": "skills/context-decomposition/SKILL.md",
+          "category": "fundamentals"
+        }
+      ]
     },
     {
       "id": "testing-automation",
@@ -348,6 +381,43 @@
       "category": "community",
       "featured": false,
       "skillCount": 5,
+      "skills": [
+        {
+          "id": "unit-test-authoring",
+          "name": "Unit Test Authoring",
+          "description": "Patterns for writing focused, fast, deterministic unit tests with high coverage and low noise.",
+          "path": "skills/unit-test-authoring/SKILL.md",
+          "category": "unit"
+        },
+        {
+          "id": "integration-test-strategy",
+          "name": "Integration Test Strategy",
+          "description": "Designing integration test suites that exercise real boundaries without becoming flaky or slow.",
+          "path": "skills/integration-test-strategy/SKILL.md",
+          "category": "integration"
+        },
+        {
+          "id": "e2e-test-reliability",
+          "name": "E2E Test Reliability",
+          "description": "Reducing flakiness in end-to-end browser/API tests through isolation, retries, and deterministic fixtures.",
+          "path": "skills/e2e-test-reliability/SKILL.md",
+          "category": "e2e"
+        },
+        {
+          "id": "coverage-analysis",
+          "name": "Coverage Analysis",
+          "description": "Interpreting coverage reports and identifying meaningful gaps rather than chasing 100%.",
+          "path": "skills/coverage-analysis/SKILL.md",
+          "category": "analysis"
+        },
+        {
+          "id": "test-driven-development",
+          "name": "Test-Driven Development",
+          "description": "A pragmatic TDD workflow that fits modern agentic development — red, green, refactor with a partner.",
+          "path": "skills/test-driven-development/SKILL.md",
+          "category": "methodology"
+        }
+      ],
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot"
@@ -374,7 +444,37 @@
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot"
-      }
+      },
+      "skills": [
+        {
+          "id": "owasp-top-10",
+          "name": "OWASP Top 10",
+          "description": "A reference for the most common web application vulnerabilities and how to detect and prevent them.",
+          "path": "skills/owasp-top-10/SKILL.md",
+          "category": "reference"
+        },
+        {
+          "id": "input-validation",
+          "name": "Input Validation",
+          "description": "Allow-list-driven input validation strategies for untrusted data entering your system.",
+          "path": "skills/input-validation/SKILL.md",
+          "category": "hardening"
+        },
+        {
+          "id": "secrets-management",
+          "name": "Secrets Management",
+          "description": "How to keep credentials, tokens, and keys out of source control and runtime logs.",
+          "path": "skills/secrets-management/SKILL.md",
+          "category": "hardening"
+        },
+        {
+          "id": "dependency-scanning",
+          "name": "Dependency Scanning",
+          "description": "Detecting vulnerable and outdated dependencies in your build pipeline.",
+          "path": "skills/dependency-scanning/SKILL.md",
+          "category": "scanning"
+        }
+      ]
     }
   ]
 }
