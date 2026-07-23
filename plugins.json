@@ -11,7 +11,13 @@
       "version": "0.1.0",
       "icon": "mcp-demo.svg",
       "repository": "https://github.com/example/demo-mcp-bundle",
-      "keywords": ["mcp", "demo", "model-context-protocol", "servers", "safety"],
+      "keywords": [
+        "mcp",
+        "demo",
+        "model-context-protocol",
+        "servers",
+        "safety"
+      ],
       "category": "community",
       "featured": false,
       "skillCount": 1,
@@ -26,12 +32,21 @@
           "description": "Sandboxed read/write access to a project-relative directory. Wraps the official filesystem MCP server.",
           "transport": "stdio",
           "command": "npx",
-          "args": ["-y", "@modelcontextprotocol/server-filesystem", "./workspace"],
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-filesystem",
+            "./workspace"
+          ],
           "env": {
             "LOG_LEVEL": "info",
             "MAX_FILE_SIZE_MB": "25"
           },
-          "tools": ["read_file", "write_file", "list_directory", "search_files"],
+          "tools": [
+            "read_file",
+            "write_file",
+            "list_directory",
+            "search_files"
+          ],
           "required": true
         },
         {
@@ -40,7 +55,11 @@
           "description": "HTTP-transport MCP server for browsing issues, PRs, and repo metadata without auth.",
           "transport": "http",
           "url": "https://mcp.example.com/github",
-          "tools": ["search_repos", "list_issues", "get_pr"],
+          "tools": [
+            "search_repos",
+            "list_issues",
+            "get_pr"
+          ],
           "required": false
         }
       ],
@@ -63,7 +82,15 @@
       "version": "1.0.0",
       "icon": "react.svg",
       "repository": "https://github.com/syncfusion/react-ui-components-skills",
-      "keywords": ["react", "ui", "components", "syncfusion", "grid", "chart", "editor"],
+      "keywords": [
+        "react",
+        "ui",
+        "components",
+        "syncfusion",
+        "grid",
+        "chart",
+        "editor"
+      ],
       "category": "syncfusion",
       "featured": true,
       "skillCount": 60,
@@ -80,7 +107,15 @@
       "version": "1.0.0",
       "icon": "angular.svg",
       "repository": "https://github.com/syncfusion/angular-ui-components-skills",
-      "keywords": ["angular", "ui", "components", "syncfusion", "grid", "chart", "editor"],
+      "keywords": [
+        "angular",
+        "ui",
+        "components",
+        "syncfusion",
+        "grid",
+        "chart",
+        "editor"
+      ],
       "category": "syncfusion",
       "featured": true,
       "skillCount": 60,
@@ -97,7 +132,14 @@
       "version": "1.0.0",
       "icon": "blazor.svg",
       "repository": "https://github.com/syncfusion/blazor-ui-components-skills",
-      "keywords": ["blazor", "dotnet", "csharp", "ui", "components", "syncfusion"],
+      "keywords": [
+        "blazor",
+        "dotnet",
+        "csharp",
+        "ui",
+        "components",
+        "syncfusion"
+      ],
       "category": "syncfusion",
       "featured": true,
       "skillCount": 60,
@@ -114,7 +156,15 @@
       "version": "1.0.0",
       "icon": "vue.svg",
       "repository": "https://github.com/syncfusion/vue-ui-components-skills",
-      "keywords": ["vue", "ui", "components", "syncfusion", "grid", "chart", "editor"],
+      "keywords": [
+        "vue",
+        "ui",
+        "components",
+        "syncfusion",
+        "grid",
+        "chart",
+        "editor"
+      ],
       "category": "syncfusion",
       "featured": false,
       "skillCount": 60,
@@ -131,7 +181,13 @@
       "version": "1.0.0",
       "icon": "javascript.svg",
       "repository": "https://github.com/syncfusion/javascript-ui-controls-skills",
-      "keywords": ["javascript", "js", "ui", "components", "syncfusion"],
+      "keywords": [
+        "javascript",
+        "js",
+        "ui",
+        "components",
+        "syncfusion"
+      ],
       "category": "syncfusion",
       "featured": false,
       "skillCount": 60,
@@ -148,7 +204,15 @@
       "version": "1.0.0",
       "icon": "dotnet.svg",
       "repository": "https://github.com/syncfusion/aspnetcore-ui-components-skills",
-      "keywords": ["aspnet", "aspnetcore", "dotnet", "csharp", "ui", "components", "syncfusion"],
+      "keywords": [
+        "aspnet",
+        "aspnetcore",
+        "dotnet",
+        "csharp",
+        "ui",
+        "components",
+        "syncfusion"
+      ],
       "category": "syncfusion",
       "featured": false,
       "skillCount": 60,
@@ -165,7 +229,14 @@
       "version": "1.0.0",
       "icon": "maui.svg",
       "repository": "https://github.com/syncfusion/maui-ui-components-skills",
-      "keywords": ["maui", "dotnet", "mobile", "desktop", "ui", "syncfusion"],
+      "keywords": [
+        "maui",
+        "dotnet",
+        "mobile",
+        "desktop",
+        "ui",
+        "syncfusion"
+      ],
       "category": "syncfusion",
       "featured": false,
       "skillCount": 50,
@@ -182,7 +253,14 @@
       "version": "1.0.0",
       "icon": "wpf.svg",
       "repository": "https://github.com/syncfusion/wpf-ui-components-skills",
-      "keywords": ["wpf", "dotnet", "desktop", "windows", "ui", "syncfusion"],
+      "keywords": [
+        "wpf",
+        "dotnet",
+        "desktop",
+        "windows",
+        "ui",
+        "syncfusion"
+      ],
       "category": "syncfusion",
       "featured": false,
       "skillCount": 60,
@@ -199,7 +277,14 @@
       "version": "1.0.0",
       "icon": "winui.svg",
       "repository": "https://github.com/syncfusion/winui-ui-components-skills",
-      "keywords": ["winui", "dotnet", "desktop", "windows", "ui", "syncfusion"],
+      "keywords": [
+        "winui",
+        "dotnet",
+        "desktop",
+        "windows",
+        "ui",
+        "syncfusion"
+      ],
       "category": "syncfusion",
       "featured": false,
       "skillCount": 50,
@@ -216,7 +301,14 @@
       "version": "1.0.0",
       "icon": "wpf.svg",
       "repository": "https://github.com/syncfusion/winforms-ui-components-skills",
-      "keywords": ["winforms", "dotnet", "desktop", "windows", "ui", "syncfusion"],
+      "keywords": [
+        "winforms",
+        "dotnet",
+        "desktop",
+        "windows",
+        "ui",
+        "syncfusion"
+      ],
       "category": "syncfusion",
       "featured": false,
       "skillCount": 60,
@@ -225,7 +317,7 @@
         "repo": "syncfusion/winforms-ui-components-skills"
       }
     },
-        {
+    {
       "id": "docx-editor-sdk-skills",
       "name": "DOCX Editor SDK Skills",
       "description": "DOCX Editor SDK Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
@@ -233,8 +325,12 @@
       "version": "1.0.0",
       "icon": "docx.svg",
       "repository": "https://github.com/syncfusion/docx-editor-sdk-skills",
-      "keywords":[
-        "document","syncfusion","word","pdf","excel"
+      "keywords": [
+        "document",
+        "syncfusion",
+        "word",
+        "pdf",
+        "excel"
       ],
       "category": "syncfusion",
       "featured": false,
@@ -245,57 +341,69 @@
       }
     },
     {
-      "id":"document-sdk-skills",
-      "name":"Dcoument SDK Skills",
+      "id": "document-sdk-skills",
+      "name": "Dcoument SDK Skills",
       "description": "Document SDK Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
-      "author":"Syncfusion",
-      "version":"1.0.0",
-      "icon":"sdk.svg",
-      "repository":"https://github.com/syncfusion/document-sdk-skills",
-      "keywords":[
-        "document","syncfusion","word","pdf","excel"
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "sdk.svg",
+      "repository": "https://github.com/syncfusion/document-sdk-skills",
+      "keywords": [
+        "document",
+        "syncfusion",
+        "word",
+        "pdf",
+        "excel"
       ],
-      "category":"syncfusion",
+      "category": "syncfusion",
       "skillCount": 12,
-      "installSource":{
-        "type":"git",
-        "repo":"syncfusion/document-sdk-skills"
+      "installSource": {
+        "type": "git",
+        "repo": "syncfusion/document-sdk-skills"
       }
     },
     {
-      "id":"pdf-viewer-sdk-skills",
-      "name":"PDF Viewer SDK Skills",
+      "id": "pdf-viewer-sdk-skills",
+      "name": "PDF Viewer SDK Skills",
       "description": "PDF Viwer SDK Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
-      "author":"Syncfusion",
-      "version":"1.0.0",
-      "icon":"pdf.svg",
-      "repository":"https://github.com/syncfusion/pdf-viewer-sdk-skills",
-      "keywords":[
-        "document","syncfusion","word","pdf","excel"
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "pdf.svg",
+      "repository": "https://github.com/syncfusion/pdf-viewer-sdk-skills",
+      "keywords": [
+        "document",
+        "syncfusion",
+        "word",
+        "pdf",
+        "excel"
       ],
-      "category":"syncfusion",
+      "category": "syncfusion",
       "skillCount": 13,
-      "installSource":{
-        "type":"git",
-        "repo":"syncfusion/pdf-viewer-sdk-skills"
+      "installSource": {
+        "type": "git",
+        "repo": "syncfusion/pdf-viewer-sdk-skills"
       }
     },
     {
-      "id":"spreadsheet-editor-sdk-skills",
-      "name":"SpreadSheet Editor SDK Skills",
+      "id": "spreadsheet-editor-sdk-skills",
+      "name": "SpreadSheet Editor SDK Skills",
       "description": "SpreadSheet Editor Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
-      "author":"Syncfusion",
-      "version":"1.0.0",
-      "icon":"xlsx.svg",
-      "repository":"https://github.com/syncfusion/spreadsheet-editor-sdk-skills",
-      "keywords":[
-        "document","syncfusion","word","pdf","excel"
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "xlsx.svg",
+      "repository": "https://github.com/syncfusion/spreadsheet-editor-sdk-skills",
+      "keywords": [
+        "document",
+        "syncfusion",
+        "word",
+        "pdf",
+        "excel"
       ],
-      "category":"syncfusion",
+      "category": "syncfusion",
       "skillCount": 10,
-      "installSource":{
-        "type":"git",
-        "repo":"syncfusion/spreadsheet-editor-sdk-skills"
+      "installSource": {
+        "type": "git",
+        "repo": "syncfusion/spreadsheet-editor-sdk-skills"
       }
     },
     {
@@ -330,13 +438,19 @@
       "version": "1.0.0",
       "icon": "context.svg",
       "repository": "https://github.com/github/awesome-copilot",
-      "keywords": ["context", "productivity", "refactoring", "architecture"],
+      "keywords": [
+        "context",
+        "productivity",
+        "refactoring",
+        "architecture"
+      ],
       "category": "community",
       "featured": false,
       "skillCount": 3,
       "installSource": {
         "type": "git",
-        "repo": "github/awesome-copilot"
+        "repo": "github/awesome-copilot",
+        "pluginPath": "plugins/context-engineering"
       },
       "skills": [
         {
@@ -381,6 +495,11 @@
       "category": "community",
       "featured": false,
       "skillCount": 5,
+      "installSource": {
+        "type": "git",
+        "repo": "github/awesome-copilot",
+        "pluginPath": "plugins/testing-automation"
+      },
       "skills": [
         {
           "id": "unit-test-authoring",
@@ -417,11 +536,7 @@
           "path": "skills/test-driven-development/SKILL.md",
           "category": "methodology"
         }
-      ],
-      "installSource": {
-        "type": "git",
-        "repo": "github/awesome-copilot"
-      }
+      ]
     },
     {
       "id": "security-best-practices",
@@ -443,7 +558,8 @@
       "skillCount": 4,
       "installSource": {
         "type": "git",
-        "repo": "github/awesome-copilot"
+        "repo": "github/awesome-copilot",
+        "pluginPath": "plugins/security-best-practices"
       },
       "skills": [
         {
