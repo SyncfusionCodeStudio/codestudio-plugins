@@ -471,7 +471,6 @@
       ],
       "category": "community",
       "featured": false,
-      "skillCount": 5,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
@@ -495,11 +494,29 @@
       ],
       "category": "community",
       "featured": false,
-      "skillCount": 4,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
         "pluginRoot": "/plugins/security-best-practices"
+      }
+    },
+    {
+      "id": "context-matic",
+      "name": "Context-Matic",
+      "description": "Context",
+      "author": "GitHub",
+      "version": "1.0.0",
+      "icon": "context.svg",
+      "repository": "https://github.com/github/awesome-copilot",
+      "keywords": [
+        "context"
+      ],
+      "category": "community",
+      "featured": false,
+      "installSource": {
+        "type": "git",
+        "repo": "github/awesome-copilot",
+        "pluginRoot": "/plugins/context-matic"
       }
     }
   ]
