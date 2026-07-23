@@ -449,7 +449,8 @@
       "skillCount": 3,
       "installSource": {
         "type": "git",
-        "repo": "github/awesome-copilot"
+        "repo": "github/awesome-copilot",
+        "pluginRoot": "/plugins/context-engineering"
       }
     },
     {
@@ -473,7 +474,8 @@
       "skillCount": 5,
       "installSource": {
         "type": "git",
-        "repo": "github/awesome-copilot"
+        "repo": "github/awesome-copilot",
+        "pluginRoot": "/plugins/testing-automation"
       }
     },
     {
@@ -496,7 +498,8 @@
       "skillCount": 4,
       "installSource": {
         "type": "git",
-        "repo": "github/awesome-copilot"
+        "repo": "github/awesome-copilot",
+        "pluginRoot": "/plugins/security-best-practices"
       }
     }
   ]
