@@ -527,7 +527,7 @@
       "description": "This plugin gives AI agents a relational knowledge graph of the Vercel ecosystem plus a bundled skill library covering products, libraries, CLI, APIs, and workflows.",
       "author": "Syncfusion",
       "version": "1.0.0",
-      "icon": "mongodb.svg",
+      "icon": ".svg",
       "repository": "https://github.com/railwayapp/railway-skills",
       "keywords": ["supabase"],
       "category": "community",
