@@ -480,7 +480,7 @@
       "description": "Agent skills for Railway, following the Agent Skills format. Includes plugin packaging for Claude Code, OpenAI Codex, Grok Build, and Cursor with the use-railway skill and local MCP server configuration.",
       "author": "Railway",
       "version": "1.0.0",
-      "icon": ".svg",
+      "icon": "railway.svg",
       "repository": "https://github.com/railwayapp/railway-skills",
       "keywords": ["railway", "deployment", "cloud", "infrastructure", "hosting", "mcp", "agent-skills"],
       "category": "community",
