@@ -360,6 +360,190 @@
       }
     },
     {
+      "id": "redis-agent-skills",
+      "name": "Redis Agent Skills",
+      "description": "Redis-specific skills for working with Redis clients, commands, and integrations",
+      "author": "Redis",
+      "version": "1.0.0",
+      "icon": "redis.svg",
+      "repository": "https://github.com/redis/agent-skills",
+      "keywords": [
+        "redis",
+        "cache",
+        "database",
+        "client",
+        "integration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 8,
+      "installSource": {
+        "type": "git",
+        "repo": "redis/agent-skills"
+      }
+    },
+    {
+      "id": "azure-skills",
+      "name": "Azure Skills",
+      "description": "Azure-specific skills for cloud integration, services, and deployment",
+      "author": "Microsoft",
+      "version": "1.0.0",
+      "icon": "azure.svg",
+      "repository": "https://github.com/microsoft/azure-skills",
+      "keywords": [
+        "azure",
+        "cloud",
+        "microsoft",
+        "deployment",
+        "integration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 18,
+      "installSource": {
+        "type": "git",
+        "repo": "microsoft/azure-skills"
+      }
+    },
+    {
+      "id": "posthog-ai-plugin",
+      "name": "PostHog AI Plugin",
+      "description": "PostHog analytics and product insights skills for AI applications",
+      "author": "PostHog",
+      "version": "1.0.0",
+      "icon": "posthog.svg",
+      "repository": "https://github.com/PostHog/ai-plugin",
+      "keywords": [
+        "posthog",
+        "analytics",
+        "product-analytics",
+        "insights",
+        "tracking"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 12,
+      "installSource": {
+        "type": "git",
+        "repo": "PostHog/ai-plugin"
+      }
+    },
+    {
+      "id": "gitbook-skills",
+      "name": "GitBook Skills",
+      "description": "GitBook integration skills for documentation and knowledge management",
+      "author": "GitBook",
+      "version": "1.0.0",
+      "icon": "gitbook.svg",
+      "repository": "https://github.com/GitbookIO/gitbook-skills",
+      "keywords": [
+        "gitbook",
+        "documentation",
+        "knowledge-base",
+        "integration",
+        "api"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 10,
+      "installSource": {
+        "type": "git",
+        "repo": "GitbookIO/gitbook-skills"
+      }
+    },
+    {
+      "id": "dotnet-skills",
+      "name": ".NET Skills",
+      "description": ".NET-specific skills for development with C#, ASP.NET, and related frameworks",
+      "author": "Microsoft",
+      "version": "1.0.0",
+      "icon": "dotnet.svg",
+      "repository": "https://github.com/dotnet/skills",
+      "keywords": [
+        "dotnet",
+        "csharp",
+        "aspnet",
+        "development",
+        "framework"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 20,
+      "installSource": {
+        "type": "git",
+        "repo": "dotnet/skills"
+      }
+    },
+    {
+      "id": "flutter-agent-plugins",
+      "name": "Flutter Agent Plugins",
+      "description": "Flutter and Dart skills for cross-platform mobile and web development",
+      "author": "Flutter",
+      "version": "1.0.0",
+      "icon": "flutter.svg",
+      "repository": "https://github.com/flutter/agent-plugins",
+      "keywords": [
+        "flutter",
+        "dart",
+        "mobile",
+        "web",
+        "cross-platform"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 16,
+      "installSource": {
+        "type": "git",
+        "repo": "flutter/agent-plugins"
+      }
+    },
+    {
+      "id": "notion-cursor-plugin",
+      "name": "Notion Cursor Plugin",
+      "description": "Notion integration skills for collaborative documentation and workspace management",
+      "author": "Notion",
+      "version": "1.0.0",
+      "icon": "notion.svg",
+      "repository": "https://github.com/makenotion/cursor-notion-plugin",
+      "keywords": [
+        "notion",
+        "workspace",
+        "integration",
+        "documentation",
+        "collaboration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 14,
+      "installSource": {
+        "type": "git",
+        "repo": "makenotion/cursor-notion-plugin"
+      }
+    },
+    {
+      "id": "netlify-context-tools",
+      "name": "Netlify Context and Tools",
+      "description": "Netlify deployment and build skills for modern web applications",
+      "author": "Netlify",
+      "version": "1.0.0",
+      "icon": "netlify.svg",
+      "repository": "https://github.com/netlify/context-and-tools",
+      "keywords": [
+        "netlify",
+        "deployment",
+        "jamstack",
+        "build",
+        "hosting"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 11,
+      "installSource": {
+        "type": "git",
+        "repo": "netlify/context-and-tools"
+      }
+    },
+    {
       "id": "context-engineering",
       "name": "Context Engineering",
       "description": "Tools for maximizing AI effectiveness through better context management",
