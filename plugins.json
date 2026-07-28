@@ -21,8 +21,6 @@
         "editor"
       ],
       "category": "syncfusion",
-      "featured": true,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/react-ui-components-skills"
@@ -46,8 +44,6 @@
         "editor"
       ],
       "category": "syncfusion",
-      "featured": true,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/angular-ui-components-skills"
@@ -70,8 +66,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": true,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/blazor-ui-components-skills"
@@ -95,8 +89,6 @@
         "editor"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/vue-ui-components-skills"
@@ -118,8 +110,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/javascript-ui-controls-skills"
@@ -143,8 +133,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/aspnetcore-ui-components-skills"
@@ -167,8 +155,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 50,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/maui-ui-components-skills"
@@ -191,8 +177,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/wpf-ui-components-skills"
@@ -215,8 +199,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 50,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/winui-ui-components-skills"
@@ -239,8 +221,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/winforms-ui-components-skills"
@@ -262,8 +242,6 @@
         "excel"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 9,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/docx-editor-sdk-skills"
@@ -285,7 +263,6 @@
         "excel"
       ],
       "category": "syncfusion",
-      "skillCount": 12,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/document-sdk-skills"
@@ -307,7 +284,6 @@
         "excel"
       ],
       "category": "syncfusion",
-      "skillCount": 13,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/pdf-viewer-sdk-skills"
@@ -329,7 +305,6 @@
         "excel"
       ],
       "category": "syncfusion",
-      "skillCount": 10,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/spreadsheet-editor-sdk-skills"
@@ -352,11 +327,101 @@
         "security"
       ],
       "category": "community",
-      "featured": true,
-      "skillCount": 24,
       "installSource": {
         "type": "git",
         "repo": "addyosmani/agent-skills"
+      }
+    },
+    {
+      "id": "redis-agent-skills",
+      "name": "Redis Agent Skills",
+      "description": "Redis-specific skills for working with Redis clients, commands, and integrations",
+      "author": "Redis",
+      "version": "1.0.0",
+      "icon": "redis.svg",
+      "repository": "https://github.com/redis/agent-skills",
+      "keywords": [
+        "redis",
+        "cache",
+        "database",
+        "client",
+        "integration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 8,
+      "installSource": {
+        "type": "git",
+        "repo": "redis/agent-skills"
+      }
+    },
+    {
+      "id": "azure-skills",
+      "name": "Azure Skills",
+      "description": "Azure-specific skills for cloud integration, services, and deployment",
+      "author": "Microsoft",
+      "version": "1.0.0",
+      "icon": "azure.svg",
+      "repository": "https://github.com/microsoft/azure-skills",
+      "keywords": [
+        "azure",
+        "cloud",
+        "microsoft",
+        "deployment",
+        "integration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 18,
+      "installSource": {
+        "type": "git",
+        "repo": "microsoft/azure-skills"
+      }
+    },
+    {
+      "id": "gitbook-skills",
+      "name": "GitBook Skills",
+      "description": "GitBook integration skills for documentation and knowledge management",
+      "author": "GitBook",
+      "version": "1.0.0",
+      "icon": "gitbook.svg",
+      "repository": "https://github.com/GitbookIO/gitbook-skills",
+      "keywords": [
+        "gitbook",
+        "documentation",
+        "knowledge-base",
+        "integration",
+        "api"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 10,
+      "installSource": {
+        "type": "git",
+        "repo": "GitbookIO/gitbook-skills"
+      }
+    },
+    {
+      "id": "notion-cursor-plugin",
+      "name": "Notion Cursor Plugin",
+      "description": "Notion integration skills for collaborative documentation and workspace management",
+      "author": "Notion",
+      "version": "1.0.0",
+      "icon": "notion.svg",
+      "repository": "https://github.com/makenotion/cursor-notion-plugin",
+      "keywords": [
+        "notion",
+        "workspace",
+        "integration",
+        "documentation",
+        "collaboration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 14,
+      "installSource": {
+        "type": "git",
+        "repo": "makenotion/cursor-notion-plugin"
       }
     },
     {
@@ -374,8 +439,6 @@
         "architecture"
       ],
       "category": "community",
-      "featured": false,
-      "skillCount": 3,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
@@ -399,7 +462,6 @@
         "automation"
       ],
       "category": "community",
-      "featured": false,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
@@ -422,11 +484,71 @@
         "owasp"
       ],
       "category": "community",
-      "featured": false,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
         "pluginRoot": "/plugins/security-best-practices"
+      }
+    },
+    {
+      "id": "superpowers",
+      "name": "Super Powers",
+      "description": "A complete software development methodology for coding agents — spec, plan, implement, and review with subagent-driven TDD. Enforces RED-GREEN-REFACTOR, YAGNI, and DRY through composable, auto-triggered skills.",
+      "author": "Prime Radiant",
+      "version": "1.0.0",
+      "icon": "superpowers.svg",
+      "repository": "https://github.com/obra/superpowers",
+      "keywords": ["agent", "tdd", "workflow", "methodology", "planning", "code-review", "debugging", "subagent"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "obra/superpowers"
+      }
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "description": "A collection of skills for AI coding agents, to help them understand and work with Firebase more effectively. Follows the Agent Skills format and supports Claude, Gemini CLI, Codex, Kimi, Cursor, and Windsurf.",
+      "author": "Firebase",
+      "version": "1.0.0",
+      "icon": "firebase.svg",
+      "repository": "https://github.com/firebase/agent-skills",
+      "keywords": ["firebase", "google", "database", "cloud", "firestore", "authentication", "agent-skills"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "firebase/agent-skills"
+      }
+    },
+    {
+      "id": "verecel",
+      "name": "Vercel",
+      "description": "Gives AI agents a relational knowledge graph of the Vercel ecosystem plus 30 skills covering Next.js, AI SDK, deployments, serverless functions, storage, CDN caching, middleware, and more. Includes 3 specialist agents and 4 slash commands.",
+      "author": "Vercel",
+      "version": "1.0.0",
+      "icon": "vercel.svg",
+      "repository": "https://github.com/vercel/vercel-plugin",
+      "keywords": ["vercel", "nextjs", "deployment", "serverless", "cloud", "ai-sdk", "edge", "cdn"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "vercel/vercel-plugin"
+      }
+    },
+    {
+      "id": "railwayapp",
+      "name": "Railway Skills",
+      "description": "Agent skills for Railway, following the Agent Skills format. Includes plugin packaging for Claude Code, OpenAI Codex, Grok Build, and Cursor with the use-railway skill and local MCP server configuration.",
+      "author": "Railway",
+      "version": "1.0.0",
+      "icon": "railway.svg",
+      "repository": "https://github.com/railwayapp/railway-skills",
+      "keywords": ["railway", "deployment", "cloud", "infrastructure", "hosting", "mcp", "agent-skills"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "railwayapp/railway-skills",
+        "pluginRoot":"/plugins/railway"
       }
     }
   ]
