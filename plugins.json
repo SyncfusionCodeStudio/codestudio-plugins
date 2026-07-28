@@ -488,6 +488,38 @@
         "type": "git",
         "repo": "vercel/vercel-plugin"
       }
+    },
+    {
+      "id": "mongo-db",
+      "name": "MongoDB",
+      "description": "This plugin gives AI agents a relational knowledge graph of the Vercel ecosystem plus a bundled skill library covering products, libraries, CLI, APIs, and workflows.",
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "mongodb.svg",
+      "repository": "https://github.com/mongodb/agent-skills",
+      "keywords": ["supabase"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "mongodb/agent-skills",
+        "pluginRoot":"/plugins/mongodb"
+      }
+    },
+    {
+      "id": "mongo-db-atlas",
+      "name": "Vercel",
+      "description": "This plugin gives AI agents a relational knowledge graph of the Vercel ecosystem plus a bundled skill library covering products, libraries, CLI, APIs, and workflows.",
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "mongodb.svg",
+      "repository": "https://github.com/mongodb/agent-skills",
+      "keywords": ["supabase"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "mongodb/agent-skills",
+        "pluginRoot":"/plugins/mongodb-atlas"
+      }
     }
   ]
 }
