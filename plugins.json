@@ -430,29 +430,14 @@
       }
     },
     {
-      "id": "supabase",
-      "name": "Supabase",
-      "description": "SpreadSheet Editor Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
-      "author": "Syncfusion",
-      "version": "1.0.0",
-      "icon": "supabase.svg",
-      "repository": "https://github.com/supabase-community/supabase-plugin",
-      "keywords": ["supabase"],
-      "category": "community",
-      "installSource": {
-        "type": "git",
-        "repo": "supabase-community/supabase-plugin"
-      }
-    },
-    {
       "id": "superpowers",
       "name": "Super Powers",
-      "description": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.",
-      "author": "Syncfusion",
+      "description": "A complete software development methodology for coding agents — spec, plan, implement, and review with subagent-driven TDD. Enforces RED-GREEN-REFACTOR, YAGNI, and DRY through composable, auto-triggered skills.",
+      "author": "Prime Radiant",
       "version": "1.0.0",
       "icon": "superpowers.svg",
       "repository": "https://github.com/obra/superpowers",
-      "keywords": ["supabase"],
+      "keywords": ["agent", "tdd", "workflow", "methodology", "planning", "code-review", "debugging", "subagent"],
       "category": "community",
       "installSource": {
         "type": "git",
@@ -462,12 +447,12 @@
     {
       "id": "firebase",
       "name": "Firebase",
-      "description": "A collection of skills for AI coding agents, to help them understand and work with Firebase more effectively.",
-      "author": "Syncfusion",
+      "description": "A collection of skills for AI coding agents, to help them understand and work with Firebase more effectively. Follows the Agent Skills format and supports Claude, Gemini CLI, Codex, Kimi, Cursor, and Windsurf.",
+      "author": "Firebase",
       "version": "1.0.0",
       "icon": "firebase.svg",
       "repository": "https://github.com/firebase/agent-skills",
-      "keywords": ["supabase"],
+      "keywords": ["firebase", "google", "database", "cloud", "firestore", "authentication", "agent-skills"],
       "category": "community",
       "installSource": {
         "type": "git",
@@ -477,12 +462,12 @@
     {
       "id": "verecel",
       "name": "Vercel",
-      "description": "This plugin gives AI agents a relational knowledge graph of the Vercel ecosystem plus a bundled skill library covering products, libraries, CLI, APIs, and workflows.",
-      "author": "Syncfusion",
+      "description": "Gives AI agents a relational knowledge graph of the Vercel ecosystem plus 30 skills covering Next.js, AI SDK, deployments, serverless functions, storage, CDN caching, middleware, and more. Includes 3 specialist agents and 4 slash commands.",
+      "author": "Vercel",
       "version": "1.0.0",
       "icon": "vercel.svg",
       "repository": "https://github.com/vercel/vercel-plugin",
-      "keywords": ["supabase"],
+      "keywords": ["vercel", "nextjs", "deployment", "serverless", "cloud", "ai-sdk", "edge", "cdn"],
       "category": "community",
       "installSource": {
         "type": "git",
@@ -492,12 +477,12 @@
     {
       "id": "railwayapp",
       "name": "Railway Skills",
-      "description": "This plugin gives AI agents a relational knowledge graph of the Vercel ecosystem plus a bundled skill library covering products, libraries, CLI, APIs, and workflows.",
-      "author": "Syncfusion",
+      "description": "Agent skills for Railway, following the Agent Skills format. Includes plugin packaging for Claude Code, OpenAI Codex, Grok Build, and Cursor with the use-railway skill and local MCP server configuration.",
+      "author": "Railway",
       "version": "1.0.0",
       "icon": ".svg",
       "repository": "https://github.com/railwayapp/railway-skills",
-      "keywords": ["supabase"],
+      "keywords": ["railway", "deployment", "cloud", "infrastructure", "hosting", "mcp", "agent-skills"],
       "category": "community",
       "installSource": {
         "type": "git",
