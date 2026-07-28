@@ -473,6 +473,21 @@
         "type": "git",
         "repo": "firebase/agent-skills"
       }
+    },
+    {
+      "id": "verecel",
+      "name": "Vercel",
+      "description": "This plugin gives AI agents a relational knowledge graph of the Vercel ecosystem plus a bundled skill library covering products, libraries, CLI, APIs, and workflows.",
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "vercel.svg",
+      "repository": "https://github.com/vercel/vercel-plugin",
+      "keywords": ["supabase"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "vercel/vercel-plugin"
+      }
     }
   ]
 }
