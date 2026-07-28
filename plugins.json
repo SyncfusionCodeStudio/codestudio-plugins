@@ -333,6 +333,98 @@
       }
     },
     {
+      "id": "redis-agent-skills",
+      "name": "Redis Agent Skills",
+      "description": "Redis-specific skills for working with Redis clients, commands, and integrations",
+      "author": "Redis",
+      "version": "1.0.0",
+      "icon": "redis.svg",
+      "repository": "https://github.com/redis/agent-skills",
+      "keywords": [
+        "redis",
+        "cache",
+        "database",
+        "client",
+        "integration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 8,
+      "installSource": {
+        "type": "git",
+        "repo": "redis/agent-skills"
+      }
+    },
+    {
+      "id": "azure-skills",
+      "name": "Azure Skills",
+      "description": "Azure-specific skills for cloud integration, services, and deployment",
+      "author": "Microsoft",
+      "version": "1.0.0",
+      "icon": "azure.svg",
+      "repository": "https://github.com/microsoft/azure-skills",
+      "keywords": [
+        "azure",
+        "cloud",
+        "microsoft",
+        "deployment",
+        "integration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 18,
+      "installSource": {
+        "type": "git",
+        "repo": "microsoft/azure-skills"
+      }
+    },
+    {
+      "id": "gitbook-skills",
+      "name": "GitBook Skills",
+      "description": "GitBook integration skills for documentation and knowledge management",
+      "author": "GitBook",
+      "version": "1.0.0",
+      "icon": "gitbook.svg",
+      "repository": "https://github.com/GitbookIO/gitbook-skills",
+      "keywords": [
+        "gitbook",
+        "documentation",
+        "knowledge-base",
+        "integration",
+        "api"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 10,
+      "installSource": {
+        "type": "git",
+        "repo": "GitbookIO/gitbook-skills"
+      }
+    },
+    {
+      "id": "notion-cursor-plugin",
+      "name": "Notion Cursor Plugin",
+      "description": "Notion integration skills for collaborative documentation and workspace management",
+      "author": "Notion",
+      "version": "1.0.0",
+      "icon": "notion.svg",
+      "repository": "https://github.com/makenotion/cursor-notion-plugin",
+      "keywords": [
+        "notion",
+        "workspace",
+        "integration",
+        "documentation",
+        "collaboration"
+      ],
+      "category": "community",
+      "featured": false,
+      "skillCount": 14,
+      "installSource": {
+        "type": "git",
+        "repo": "makenotion/cursor-notion-plugin"
+      }
+    },
+    {
       "id": "context-engineering",
       "name": "Context Engineering",
       "description": "Tools for maximizing AI effectiveness through better context management",
