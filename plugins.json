@@ -458,6 +458,21 @@
         "type": "git",
         "repo": "obra/superpowers"
       }
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "description": "A collection of skills for AI coding agents, to help them understand and work with Firebase more effectively.",
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "firebase.svg",
+      "repository": "https://github.com/firebase/agent-skills",
+      "keywords": ["supabase"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "firebase/agent-skills"
+      }
     }
   ]
 }
