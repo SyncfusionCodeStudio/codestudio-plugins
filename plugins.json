@@ -428,6 +428,22 @@
         "repo": "github/awesome-copilot",
         "pluginRoot": "/plugins/security-best-practices"
       }
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "description": "SpreadSheet Editor Skills are specialized instruction sets that teach AI assistants how to perform specific tasks",
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "supabase.svg",
+      "repository": "https://github.com/supabase-community/supabase-plugin",
+      "keywords": ["supabase"],
+      "category": "community",
+      "skillCount": 10,
+      "installSource": {
+        "type": "git",
+        "repo": "supabase-community/supabase-plugin"
+      }
     }
   ]
 }
