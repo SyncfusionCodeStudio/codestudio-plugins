@@ -506,7 +506,7 @@
       }
     },
     {
-      "id": "mongo-db-atlas",
+      "id": "mongodb-atlas",
       "name": "MongoDB-Atlas",
       "description": "This plugin gives AI agents a relational knowledge graph of the Vercel ecosystem plus a bundled skill library covering products, libraries, CLI, APIs, and workflows.",
       "author": "Syncfusion",
