@@ -221,7 +221,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/winforms-ui-components-skills"
@@ -328,7 +327,6 @@
         "security"
       ],
       "category": "community",
-      "featured": true,
       "installSource": {
         "type": "git",
         "repo": "addyosmani/agent-skills"
@@ -349,7 +347,6 @@
         "architecture"
       ],
       "category": "community",
-      "featured": false,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
@@ -373,7 +370,6 @@
         "automation"
       ],
       "category": "community",
-      "featured": false,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
@@ -396,7 +392,6 @@
         "owasp"
       ],
       "category": "community",
-      "featured": false,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
