@@ -520,6 +520,22 @@
         "repo": "mongodb/agent-skills",
         "pluginRoot":"/plugins/mongodb-atlas"
       }
+    },
+    {
+      "id": "railwayapp",
+      "name": "Railway Skills",
+      "description": "This plugin gives AI agents a relational knowledge graph of the Vercel ecosystem plus a bundled skill library covering products, libraries, CLI, APIs, and workflows.",
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "mongodb.svg",
+      "repository": "https://github.com/railwayapp/railway-skills",
+      "keywords": ["supabase"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "railwayapp/railway-skills",
+        "pluginRoot":"/plugins/railway"
+      }
     }
   ]
 }
