@@ -439,10 +439,24 @@
       "repository": "https://github.com/supabase-community/supabase-plugin",
       "keywords": ["supabase"],
       "category": "community",
-      "skillCount": 10,
       "installSource": {
         "type": "git",
         "repo": "supabase-community/supabase-plugin"
+      }
+    },
+    {
+      "id": "superpowers",
+      "name": "Super Powers",
+      "description": "Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.",
+      "author": "Syncfusion",
+      "version": "1.0.0",
+      "icon": "superpowers.svg",
+      "repository": "https://github.com/obra/superpowers",
+      "keywords": ["supabase"],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "obra/superpowers"
       }
     }
   ]
