@@ -21,8 +21,6 @@
         "editor"
       ],
       "category": "syncfusion",
-      "featured": true,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/react-ui-components-skills"
@@ -46,8 +44,6 @@
         "editor"
       ],
       "category": "syncfusion",
-      "featured": true,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/angular-ui-components-skills"
@@ -70,8 +66,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": true,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/blazor-ui-components-skills"
@@ -95,8 +89,6 @@
         "editor"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/vue-ui-components-skills"
@@ -118,8 +110,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/javascript-ui-controls-skills"
@@ -143,8 +133,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/aspnetcore-ui-components-skills"
@@ -167,8 +155,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 50,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/maui-ui-components-skills"
@@ -191,8 +177,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/wpf-ui-components-skills"
@@ -215,8 +199,6 @@
         "syncfusion"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 50,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/winui-ui-components-skills"
@@ -240,7 +222,6 @@
       ],
       "category": "syncfusion",
       "featured": false,
-      "skillCount": 60,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/winforms-ui-components-skills"
@@ -262,8 +243,6 @@
         "excel"
       ],
       "category": "syncfusion",
-      "featured": false,
-      "skillCount": 9,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/docx-editor-sdk-skills"
@@ -285,7 +264,6 @@
         "excel"
       ],
       "category": "syncfusion",
-      "skillCount": 12,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/document-sdk-skills"
@@ -307,7 +285,6 @@
         "excel"
       ],
       "category": "syncfusion",
-      "skillCount": 13,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/pdf-viewer-sdk-skills"
@@ -329,7 +306,6 @@
         "excel"
       ],
       "category": "syncfusion",
-      "skillCount": 10,
       "installSource": {
         "type": "git",
         "repo": "syncfusion/spreadsheet-editor-sdk-skills"
@@ -353,7 +329,6 @@
       ],
       "category": "community",
       "featured": true,
-      "skillCount": 24,
       "installSource": {
         "type": "git",
         "repo": "addyosmani/agent-skills"
@@ -375,7 +350,6 @@
       ],
       "category": "community",
       "featured": false,
-      "skillCount": 3,
       "installSource": {
         "type": "git",
         "repo": "github/awesome-copilot",
