@@ -901,8 +901,8 @@
       }
     },
     {
-      "id": "notion-cursor-plugin",
-      "name": "Notion Cursor Plugin",
+      "id": "notion-plugin",
+      "name": "Notion Plugin",
       "description": "Notion integration skills for collaborative documentation and workspace management",
       "author": "Notion",
       "version": "1.0.0",
