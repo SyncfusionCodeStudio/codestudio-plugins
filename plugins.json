@@ -70,36 +70,16 @@
           "id": "syncfusion-angular-assistant",
           "name": "Syncfusion Angular Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion Angular components.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/angular-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/angular-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/angular-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -129,36 +109,16 @@
           "id": "syncfusion-blazor-assistant",
           "name": "Syncfusion Blazor Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion Blazor components.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/blazor-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/blazor-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/blazor-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -189,36 +149,16 @@
           "id": "syncfusion-vue-assistant",
           "name": "Syncfusion Vue Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion Vue components.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/vue-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/vue-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/vue-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -247,36 +187,16 @@
           "id": "syncfusion-javascript-assistant",
           "name": "Syncfusion JavaScript Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion JavaScript controls.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/javascript-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/javascript-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/javascript-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -307,36 +227,16 @@
           "id": "syncfusion-aspnetcore-assistant",
           "name": "Syncfusion ASP.NET Core Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion ASP.NET Core controls.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/aspnetcore-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/aspnetcore-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/aspnetcore-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -366,36 +266,16 @@
           "id": "syncfusion-maui-assistant",
           "name": "Syncfusion MAUI Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion MAUI components.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/maui-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/maui-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/maui-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -425,36 +305,16 @@
           "id": "syncfusion-wpf-assistant",
           "name": "Syncfusion WPF Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion WPF components.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/wpf-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/wpf-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/wpf-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -484,36 +344,16 @@
           "id": "syncfusion-winui-assistant",
           "name": "Syncfusion WinUI Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion WinUI components.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/winui-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/winui-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/winui-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -543,37 +383,16 @@
           "id": "syncfusion-winforms-assistant",
           "name": "Syncfusion WinForms Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion WinForms components.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "logoUrl": "https://s3.us-east-1.amazonaws.com/files2.syncfusion.com/ContinueAI/TestContinue/TestMCP/MCP-Images/syncfusion_logo.png",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/winforms-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/winforms-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/winforms-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -602,36 +421,16 @@
           "id": "docxeditorsdk-assistant",
           "name": "Syncfusion DOCX Editor SDK Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion Document Editor SDK Compontent.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2026-05-25T00:00:00Z",
-          "publishedDate": "2026-05-25T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/docxeditorsdk-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/docxeditorsdk-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/docxeditorsdk-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -660,36 +459,16 @@
           "id": "syncfusion-documentsdk-assistant",
           "name": "Syncfusion Document SDK Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion Document Processing Libraries.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-12-27T00:00:00Z",
-          "publishedDate": "2025-12-27T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/documentsdk-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/documentsdk-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/documentsdk-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -718,36 +497,16 @@
           "id": "pdfviewersdk-assistant",
           "name": "Syncfusion PDF Viewer SDK Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion PDF Viewer SDK component.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2026-02-16T00:00:00Z",
-          "publishedDate": "2026-02-16T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/pdfviewersdk-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/pdfviewersdk-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/pdfviewersdk-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -776,36 +535,16 @@
           "id": "spreadsheeteditorsdk-assistant",
           "name": "Syncfusion Spreadsheet Editor SDK Assistant",
           "description": "This MCP server provides intelligent, context-aware assistance for developing applications with Syncfusion SpreadsheetEditorSDK control.",
-          "type": "npm",
-          "version": "1.0.0",
-          "publisher": "syncfusion",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2026-02-06T00:00:00Z",
-          "publishedDate": "2026-02-06T00:00:00Z",
-          "installCommand": "npx -y @syncfusion/spreadsheeteditorsdk-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/spreadsheeteditorsdk-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
-          },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/spreadsheeteditorsdk-assistant@latest"
           ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
+          },
+          "required": true
         }
       ]
     },
@@ -848,7 +587,6 @@
       ],
       "category": "community",
       "featured": false,
-      "skillCount": 8,
       "installSource": {
         "type": "git",
         "repo": "redis/agent-skills"
@@ -871,7 +609,6 @@
       ],
       "category": "community",
       "featured": false,
-      "skillCount": 18,
       "installSource": {
         "type": "git",
         "repo": "microsoft/azure-skills"
@@ -894,7 +631,6 @@
       ],
       "category": "community",
       "featured": false,
-      "skillCount": 10,
       "installSource": {
         "type": "git",
         "repo": "GitbookIO/gitbook-skills"
@@ -917,7 +653,6 @@
       ],
       "category": "community",
       "featured": false,
-      "skillCount": 14,
       "installSource": {
         "type": "git",
         "repo": "makenotion/cursor-notion-plugin"
