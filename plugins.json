@@ -659,6 +659,29 @@
       }
     },
     {
+      "id": "testing-automation",
+      "name": "Testing Automation",
+      "description": "Automated testing skills — unit tests, integration tests, E2E, coverage",
+      "author": "GitHub",
+      "version": "1.0.0",
+      "icon": "testing.svg",
+      "repository": "https://github.com/github/awesome-copilot",
+      "keywords": [
+        "testing",
+        "unit-test",
+        "integration",
+        "e2e",
+        "coverage",
+        "automation"
+      ],
+      "category": "community",
+      "installSource": {
+        "type": "git",
+        "repo": "github/awesome-copilot",
+        "pluginRoot": "/plugins/testing-automation"
+      }
+    },
+    {
       "id": "superpowers",
       "name": "Super Powers",
       "description": "A complete software development methodology for coding agents — spec, plan, implement, and review with subagent-driven TDD. Enforces RED-GREEN-REFACTOR, YAGNI, and DRY through composable, auto-triggered skills.",
