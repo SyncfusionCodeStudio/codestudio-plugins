@@ -718,6 +718,19 @@
         "repo": "railwayapp/railway-skills",
         "pluginRoot":"/plugins/railway"
       }
+    },
+    {
+      "id":"netlify",
+      "name":"Netlify",
+      "description":"Netlify Skills",
+      "author":"Netlify",
+      "icon":"notion.svg",
+      "version":"1.0.0",
+      "repository":"https://github.com/netlify/context-and-tools",
+      "installSource":{
+        "type":"git",
+        "repo":"netlify/context-and-tools.git"
+      }
     }
   ]
 }
