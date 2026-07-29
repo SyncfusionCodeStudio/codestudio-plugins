@@ -39,16 +39,14 @@
           "createdDate": "2025-10-06T11:26:12.485Z",
           "publishedDate": "2025-12-16T13:51:38.448Z",
           "installCommand": "npx -y @syncfusion/react-assistant@latest",
-          "config": {
-            "type": "stdio",
-            "command": "npx",
-            "args": [
-              "-y",
-              "@syncfusion/react-assistant@latest"
-            ],
-            "env": {
-              "Syncfusion_API_Key": "${input:syncfusion-api-key}"
-            }
+          "transport": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@syncfusion/react-assistant@latest"
+          ],
+          "env": {
+            "Syncfusion_API_Key": "${input:syncfusion-api-key}"
           },
           "inputs": [
             {
