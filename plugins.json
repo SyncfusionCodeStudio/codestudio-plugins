@@ -32,13 +32,6 @@
           "id": "syncfusion-react-assistant",
           "name": "Syncfusion React Assistant",
           "description": "MCP server that provides efficient access to Syncfusion documentation, implementation guidelines, and code generation for React",
-          "type": "npm",
-          "version": "1.0.0",
-          "codiconIcon": "package",
-          "installCount": 0,
-          "createdDate": "2025-10-06T11:26:12.485Z",
-          "publishedDate": "2025-12-16T13:51:38.448Z",
-          "installCommand": "npx -y @syncfusion/react-assistant@latest",
           "transport": "stdio",
           "command": "npx",
           "args": [
@@ -48,17 +41,7 @@
           "env": {
             "Syncfusion_API_Key": "${input:syncfusion-api-key}"
           },
-          "inputs": [
-            {
-              "id": "syncfusion-api-key",
-              "type": "promptString",
-              "password": true,
-              "description": "Syncfusion API Key"
-            }
-          ],
-          "compatibility": {
-            "node": ">=18"
-          }
+          "required": true
         }
       ]
     },
@@ -461,7 +444,7 @@
           "type": "npm",
           "version": "1.0.0",
           "publisher": "syncfusion",
-         "codiconIcon": "package",
+          "codiconIcon": "package",
           "installCount": 0,
           "createdDate": "2025-12-27T00:00:00Z",
           "publishedDate": "2025-12-27T00:00:00Z",
