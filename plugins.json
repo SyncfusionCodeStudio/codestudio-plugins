@@ -731,7 +731,7 @@
       "repository":"https://github.com/netlify/context-and-tools",
       "installSource":{
         "type":"git",
-        "repo":"netlify/context-and-tools.git"
+        "repo":"netlify/context-and-tools"
       }
     }
   ]
